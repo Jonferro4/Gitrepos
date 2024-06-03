@@ -1,30 +1,33 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-    <h1>DOM MANIPULATION</h1>
-<body>
-<div class="remove-me">
-  <p>You'll need to remove this entire div and replace it.</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+        <form>
+            <input type="text" name="first" value="" placeholder="Put your first name here...">
+            <input type="text" name="last" value="" placeholder="Put your last name here...">
+            <button type="submit">Submit</button>
+        </form>
 
-  
-  
-</div>
+        <label>
+            Album
+            <input type="text" name="album">
+          </label>
 
-<footer>
-    <div class="Galvanize-link">
-  <a href="http://galvanize.com">Coyright Galvanize</a>
-</footer>
- 
- <script>
-	const divToRemove = document.querySelector('.remove-me');
-	if (divToRemove) {
-  divToRemove.remove();
-}
-</script>
+          <label for="album">Album</label>
+          <input id="album" type="text" name="album">          
 
 
-</body>
+          <form>
+            <input type="text">
+        
+            <div>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </form>
+
+
 </html>
